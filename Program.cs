@@ -15,7 +15,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.MapGet("dfff", () => new[] { "Fffff", "fdfdf", "sfsfsf" });
+app.MapGet("dfff", () => "d");
 app.UseHttpsRedirection();
 
 
